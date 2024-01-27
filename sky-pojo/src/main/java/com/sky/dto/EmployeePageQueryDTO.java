@@ -10,6 +10,7 @@ public class EmployeePageQueryDTO implements Serializable {
     //员工姓名
     private String name;
 
+    //偏移就是(page -  1) * pageSize
     //页码
     private int page;
 
